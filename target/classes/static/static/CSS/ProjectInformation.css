@@ -1,0 +1,170 @@
+.content{
+    margin-bottom: 1.5%;
+    margin-right: 12.5%;
+    margin-left: 12.5%;
+    width: 75%;
+}
+.center{
+    justify-content: center;
+    text-align: center;
+}
+.hermano{
+    float: left;
+}
+.categorie{
+    margin-top: 2%;
+    font-family: "Times New Roman";
+    font-size: 30px;
+}
+.project-title{
+    font-family: Didot;
+    font-size: 50px;
+    font-weight: bold;
+}
+.summary{
+    margin-top: 2%;
+    width: 100%;
+    overflow: hidden;
+}
+.img{
+    width: 48%;
+}
+.summary-right{
+    margin-left: 2%;
+    width: 50%;
+}
+.summary-text{
+    font-family: SFPro;
+    font-size: 24px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #707070;
+}
+.btn-donate{
+    margin-top: 2%;
+    width: 100%;
+    height: 72px;
+    border-radius: 12px;
+    border-color: white;
+    background-color: #0382cb;
+}
+.text-donate{
+    margin-top: 2%;
+    font-family: SFPro;
+    font-size: 32px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #fff;
+}
+.pts-info{
+    margin-top: 3%;
+}
+.porcentage-text{
+    float: left;
+    font-family: SFPro;
+    font-size: 32px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #0382cb;
+}
+.pts-text{
+    margin-left: 2%;
+    font-family: SFPro;
+    font-size: 20px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #707070;
+}
+.top{
+    margin-top: 12px;
+    float: left;
+    text-align: left;
+}
+.bottom{
+    text-align: right;
+}
+.barra-porcentaje{
+    width: 100%;
+    height: 30px;
+}
+.contenedor{
+    margin-top: 3%;
+    overflow: hidden;
+    width: 100%;
+}
+.project-container{
+    padding-bottom: 3%;
+    padding-top: 1%;
+    padding-left: 2%;
+    padding-right: 2%;
+    width: 49%;
+    height: auto;
+    border: #aaa 0.2px solid;
+    border-radius: 40px;
+}
+.organization-container{
+    padding-bottom: 3%;
+    padding-top: 1%;
+    padding-left: 2%;
+    padding-right: 2%;
+    margin-left: 2%;
+    width: 49%;
+    height: auto;
+    border: #aaa 0.2px solid;
+    border-radius: 40px;
+}
+.title-container{
+    font-size: 30px;
+    font-family: Graphik, sans-serif;
+    color: #969FAD;
+    font-weight: bold;
+}
+.organization-basic-info{
+    margin-top: 2%;
+    margin-left: 4%;
+    width: 66%;
+}
+.box{
+    width: 30%;
+    height: 110px;
+    border: lightgray 1px solid;
+    border-radius: 20px;
+    padding-left: 3%;
+}
+.box-derecha{
+    width: 32%;
+    margin-left: 2%;
+    height: 110px;
+    border: lightgray 1px solid;
+    border-radius: 20px;
+    padding-left: 3%;
+}
+.title-box{
+    margin-top: 10%;
+    font-size: 17px;
+    font-family: Graphik, sans-serif;
+    color: #ADBACC;
+    font-weight: bold;
+}
+.info-box{
+    font-size: 40px;
+    font-family: Graphik, sans-serif;
+    color: #53ACDE;
+    font-weight: bold;
+}

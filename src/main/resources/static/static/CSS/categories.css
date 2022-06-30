@@ -1,0 +1,77 @@
+.slogan{
+    width: 100%;
+    font-family: SFPro;
+    font-size: 30px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #404040;
+}
+.category-name{
+    margin-top: 2%;
+    text-align: center;
+    color: #707070;
+    font-family: Didot;
+    font-size: 30px;
+}
+.content{
+    margin-top: 3%;
+}
+.categories{
+    margin-top: 2%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.choose-category{
+    font-family: SFPro;
+    font-size: 28px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #404040;
+}
+.img{
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 12%;
+}
+.categorias{
+    overflow: hidden;
+    margin-bottom: 2%;
+}
+.panel{
+    height: 300px;
+    background: linear-gradient(to bottom, #aaa 0%, rgba(112, 112, 112, 0.06) 45%, rgba(112, 112, 112, 0.06) 45%, white 100%);    width: 22%;
+    float: left;
+    border-radius: 20px;
+    border: #aaa 0.2px solid;
+    margin-left: 2%;
+    cursor: pointer;
+}
+#newest{
+    margin-left: 10%;
+}
+#pending{
+    margin-left: 5%;
+}
+.inicio{
+    margin-left: 27.5%;
+}
+.filters{
+    overflow: hidden;
+    margin-top: 2%;
+    margin-bottom: 4%;
+}
+.filter-name{
+    margin-top: 5%;
+    text-align: center;
+    color: #707070;
+    font-family: Didot;
+    font-size: 30px;
+}

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Donaciones</title>
+    <link href="static/CSS/categories.css" rel="stylesheet" type="text/css">
+    <link href="static/CSS/efectos.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link href="static/CSS/cargarData.css" rel="stylesheet" type="text/css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" media="all">
+</head>
+
+<body onload="cargarDatos()">
+<div id="barra-panel" class="bar">
+</div>
+<div class="content">
+    <div>
+        <p class="slogan">
+           CHOOSE A CATEGORY
+        </p>
+    </div>
+</div>
+<div class="categories">
+    <div class="categorias">
+        <div class="panel hvr-bob" onclick="showProjects()">
+            <div class="img">
+                <img src="static/images/categories/Enviroment.jpg" alt="" width="100%" height="100%"/></a>
+            </div>
+            <div class="category-name">
+                ENVIRONMENT
+            </div>
+        </div>
+        <div class="panel hvr-bob" onclick="showProjects()">
+            <div class="img" style="overflow: hidden">
+                <img src="static/images/categories/educacion.jpeg" alt="" width="100%" height="100%"/>
+            </div>
+            <div class="category-name">
+                EDUCATION
+            </div>
+        </div>
+        <div class="panel hvr-bob" onclick="showProjects()">
+            <div class="img" >
+                <img src="static/images/categories/Feeding.png" id="alimentacion" alt="" width="100%" height="100%"/>
+            </div>
+            <div class="category-name">
+                FOOD SECURITY
+            </div>
+        </div>
+        <div class="panel hvr-bob" onclick="showProjects()">
+            <div class="img">
+                <img src="static/images/categories/HumanRights.jpg" id="derechos" alt="" width="100%" height="100%"/></a>
+            </div>
+            <div class="category-name">
+                HUMAN RIGHTS
+            </div>
+        </div>
+    </div>
+    <div class="content">
+        <div>
+            <p class="slogan">
+                OR CHOOSE BY
+            </p>
+        </div>
+    </div>
+    <div class="filters">
+        <div class="panel inicio hvr-bob" onclick="showProjects()">
+            <div class="img">
+                <img src="static/images/categories/Pending.png" id="pending" alt="" width="95%" height="100%"/></a>
+            </div>
+            <div class="filter-name">
+                Closes to goal
+            </div>
+        </div>
+        <div class="panel hvr-bob" onclick="showProjects()">
+            <div class="img">
+                <img src="static/images/categories/Newest.png" id="newest" alt="" width="80%" height="100%"/></a>
+            </div>
+            <div class="filter-name">
+                Recently started
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/gh/ethereum/web3.js/dist/web3.min.js"></script>
+<script src="static/js/borrar.js"></script>
+<script src="static/js/cargarData.js"></script>
+
+
+</body>
+</html>

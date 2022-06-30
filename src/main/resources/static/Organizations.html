@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Donaciones</title>
+    <link href="static/CSS/cargarData.css" rel="stylesheet" type="text/css">
+    <link href="static/CSS/efectos.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link href="static/CSS/organizations.css" rel="stylesheet" type="text/css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" media="all">
+
+</head>
+
+
+<body onload="cargarDatos();loadOrganizations()">
+
+    <div id="barra-panel" class="bar">
+    </div>
+    <div class="organizations">
+        <div class="title">
+            Organizations
+        </div>
+        <div id="organizations-content" class="organization-list">
+
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/gh/ethereum/web3.js/dist/web3.min.js"></script>
+    <script src="static/js/cargarData.js"></script>
+    <script src="static/js/contract.js"></script>
+    <script src="static/js/administrator.js"></script>
+    <script src="static/js/loadOrganizations.js"></script>
+</body>
+</html>

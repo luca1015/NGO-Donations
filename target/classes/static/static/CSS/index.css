@@ -1,0 +1,56 @@
+.slogan{
+    width: 100%;
+    font-family: SFPro;
+    font-size: 30px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #404040;
+}
+.img{
+    width: 100%;
+    border-radius: 30px;
+}
+.explore{
+    text-align: center;
+    padding-top: 12%;
+    color: white;
+    font-size: 80px;
+    font-family: Didot;
+    font-weight: bold;
+}
+.donate-safety{
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    margin-top: 2.25%;
+    overflow: hidden;
+}
+.btn-style{
+    float: left;
+    text-align: center;
+    width: 25%;
+    height: 75px;
+    border: cornflowerblue 1px solid;
+    border-radius: 40px;
+    font-size: 30px;
+    font-family: Didot;
+    padding-top: 12.5px;
+    font-weight: bold;
+    color: white;
+    background: cornflowerblue;
+    cursor: pointer;
+}
+.right{
+    margin-left: 4%;
+}
+.flecha{
+    padding-left: 2.5%;
+}
+

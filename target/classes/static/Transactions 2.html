@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Transactions</title>
+    <link href="static/CSS/cargarData.css" rel="stylesheet" type="text/css">
+    <link href="static/CSS/efectos.css" rel="stylesheet" type="text/css">
+    <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link href="static/CSS/Transactions.css" rel="stylesheet" type="text/css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" media="all">
+</head>
+<body onload="cargarDatos();loadTransactions()">
+
+    <div id="barra-panel" class="bar">
+    </div>
+
+    <div class="content">
+        <div class="transaction-history-title">
+            TRANSACTION HISTORY
+        </div>
+        <hr>
+       <div id="transactions-options" class="transaction-filter">
+       </div>
+        <hr>
+        <div id="transactions">
+            <div id="" style="display: block">
+                <div id ="1" class="btn-desplegar cursor hvr-icon-down" onclick="myFunction()">
+                    <b>Project Name</b>: Help Feed Hungry Children in Zimbabwe, <b>Goal</b>: 12000PTS, <b>Achieved</b>: 6000PTS <i style="width: 10%" class="fa fa-arrow-circle-o-down hvr-icon"></i>
+                </div>
+
+                <div id="1" style="display: none">
+                    <table class="table">
+                        <thead>
+                        <tr class="table100-head">
+                            <th class="column1">Date</th>
+                            <th class="column2">Ammount (PTS)</th>
+                            <th class="column3">Project Name</th>
+                            <th class="column4">Donor Public Address</th>
+                            <th class="column5">Project Public Adress</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div style="display: block">
+                <div class="btn-desplegar cursor hvr-icon-up" onclick="myFunction2()">
+                    <b>Project Name</b>: Help Feed Hungry Children in Zimbabwe, <b>Goal</b>: 12000PTS, <b>Achieved</b>: 6000PTS <i style="width: 10%" class="fa fa-arrow-circle-o-up hvr-icon"></i>
+                </div>
+
+                <div id="myDIV2" style="display: none">
+                    <table class="table">
+                        <thead>
+                        <tr class="table100-head">
+                            <th class="column1">Date</th>
+                            <th class="column2">Ammount (PTS)</th>
+                            <th class="column3">Project Name</th>
+                            <th class="column4">Donor Public Address</th>
+                            <th class="column5">Project Public Adress</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td class="column1">2017-09-29 01:22</td>
+                            <td class="column2">200398</td>
+                            <td class="column3">Help Feed Hungry Children in Zimbabwe</td>
+                            <td class="column4">0x5F3d6f7EDB60aa2B783a1126FaC3E49C5d00a384</td>
+                            <td class="column5">0x5F3d6f7EDB60aa2B783a1126FaC3E49C5d00a384</td>
+                        </tr>
+                        <tr>
+                            <td class="column1">2017-09-29 01:22</td>
+                            <td class="column2">200398</td>
+                            <td class="column3">Help Feed Hungry Children in Zimbabwe</td>
+                            <td class="column4">0x5F3d6f7EDB60aa2B783a1126FaC3E49C5d00a384</td>
+                            <td class="column5">0x5F3d6f7EDB60aa2B783a1126FaC3E49C5d00a384</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/gh/ethereum/web3.js/dist/web3.min.js"></script>
+    <script src="static/js/cargarData.js"></script>
+    <script src="static/js/contract.js"></script>
+    <script src="static/js/transactions.js"></script>
+    <script src="static/js/EthereumAccountsInfo.js"></script>
+
+</body>
+</html>

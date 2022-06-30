@@ -1,0 +1,119 @@
+.content{
+    margin-bottom: 1.5%;
+    margin-right: 12.5%;
+    margin-left: 12.5%;
+    width: 75%;
+}
+.center{
+    justify-content: center;
+    text-align: center;
+}
+.hermano{
+    float: left;
+}
+.organization-title{
+    margin-top: 4%;
+    font-family: Didot;
+    font-size: 50px;
+    font-weight: bold;
+}
+.components{
+    margin-top: 2%;
+    height: auto;
+    border-radius: 20px;
+    border: #aaa 0.2px solid;
+    padding-right: 4%;
+    padding-left: 4%;
+    padding-bottom: 3%;
+}
+.start-text{
+    font-family: Didot;
+    font-size: 35px;
+    font-weight: 900;
+    margin-left: 1%;
+}
+.box-title{
+    font-size: 17.5px;
+    font-weight: normal;
+    font-family: Graphik, sans-serif;
+    color: #ADBACC;
+    display: block;
+    margin-left: 4%;
+}
+.box-input-simple{
+    font-size: 20px;
+    font-family: Graphik, sans-serif;
+    color: black;
+    padding-left: 7.5%;
+    border: lightgray 0.2px solid;
+    border-radius: 20px;
+    height: 62px;
+    font-weight: normal;
+    width: 100%;
+    padding-right: 7.5%;
+}
+.box-left{
+    width: 48%;
+}
+.box-right{
+    margin-left: 3.5%;
+    width: 48%;
+}
+.box-long{
+    margin-top: 3.5%;
+    width: 100%;
+}
+.box-long-title{
+    font-size: 17.5px;
+    font-weight: normal;
+    font-family: Graphik, sans-serif;
+    color: #ADBACC;
+    display: block;
+    margin-left: 2%;
+}
+.box-input-long{
+    font-size: 20px;
+    font-family: Graphik, sans-serif;
+    color: black;
+    padding-left: 3.5%;
+    padding-right: 3.5%;
+    border: lightgray 0.2px solid;
+    border-radius: 20px;
+    height: 62px;
+    font-weight: normal;
+    width: 100%;
+}
+::placeholder {
+    color: darkgrey;
+    font-size: 20px;
+    font-family: Graphik, sans-serif;
+    font-weight: normal;
+}
+.box-input-description{
+    font-size: 20px;
+    font-family: Graphik, sans-serif;
+    color: black;
+    padding-left: 3.5%;
+    padding-right: 3.5%;
+    border: lightgray 0.2px solid;
+    border-radius: 20px;
+    height: 150px;
+    font-weight: normal;
+    width: 100%;
+    padding-top: 2%;
+}
+.btn-update{
+    cursor: pointer;
+    width: 40%;
+    padding-top: 2%;
+    margin-left: 30%;
+    margin-top: 3.5%;
+    font-size: 30px;
+    font-family: Graphik, sans-serif;
+    font-weight: bold;
+    border-radius: 20px;
+    text-align: center;
+    height: 75px;
+    background: #3980c5;
+    color: white;
+}

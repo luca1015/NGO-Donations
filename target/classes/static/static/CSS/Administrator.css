@@ -1,0 +1,51 @@
+.content{
+    margin-bottom: 1.5%;
+    margin-right: 10%;
+    margin-left: 10%;
+    width: 80%;
+}
+.center{
+    justify-content: center;
+    text-align: center;
+}
+.hermano{
+    float: left;
+}
+.organization-title{
+    margin-top: 4%;
+    font-family: Didot;
+    font-size: 50px;
+    font-weight: bold;
+}
+.projects-title{
+    margin-top: 2%;
+    text-align: center;
+    font-size: 40px;
+    font-family: "Times New Roman", sans-serif;
+}
+.btn-create{
+    cursor: pointer;
+    overflow: hidden;
+    margin-left: 32.5%;
+    width: 35%;
+    height: 100px;
+    margin-top: 4%;
+    background-color: rgba(112, 112, 112, 0.06);
+    border-radius: 25px;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+.img{
+    margin-left: 10%;
+    margin-top: 4%;
+    width: 15%;
+}
+.btn-text{
+    justify-content: center;
+    margin-top: 6%;
+    width: 75%;
+    padding-left: 5%;
+    font-size: 32px;
+    font-family: "Times New Roman", sans-serif;
+    font-weight: bold;
+}

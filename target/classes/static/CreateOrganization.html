@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="es" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Donaciones</title>
+    <link href="static/CSS/cargarData.css" rel="stylesheet" type="text/css">
+    <link href="static/CSS/efectos.css" rel="stylesheet" type="text/css">
+    <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link href="static/CSS/createProject.css" rel="stylesheet" type="text/css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" media="all">
+</head>
+<body onload="cargarDatos()">
+
+    <div id="barra-panel" class="bar">
+    </div>
+
+    <div class="content">
+        <div class="organization-title center">
+            Administration of organizations
+        </div>
+        <div style="width: 75%; margin-left: 12.5%; margin-top: 4%">
+            <div class="start-text">
+                Start a organization
+            </div>
+            <div class="components">
+                <div style="overflow: hidden; margin-top: 3.5%;">
+                    <div class="box-left hermano">
+                        <label class="box-title">
+                            Organization Name
+                        </label>
+                        <input type="text" id="lname" class="box-input-simple" name="lastname" placeholder="Name of the organization...">
+                    </div>
+                    <div class="box-right hermano">
+                        <label class="box-title">
+                            Country
+                        </label>
+                        <input type="text" id="lcountry" class="box-input-simple" name="lastname" placeholder="Country of the organization...">
+                    </div>
+                </div>
+                <div style="overflow: hidden; margin-top: 3.5%;">
+                    <div class="box-left hermano">
+                        <label class="box-title">
+                            Categorie
+                        </label>
+                        <input type="text" id="lcategorie" class="box-input-simple" name="lastname" placeholder="The category of the organization's projects will be...">
+                    </div>
+                    <div class="box-right hermano">
+                        <label class="box-title">
+                            Year founded
+                        </label>
+                        <input type="text" id="lyear" class="box-input-simple" name="lastname" placeholder="The year when the organization was founded...">
+                    </div>
+                </div>
+                <div class="box-long">
+                    <label class="box-long-title">
+                        Logo
+                    </label>
+                    <input type="text" id="llogo" class="box-input-long" name="lastname" placeholder="Place the organization's logo...">
+                </div>
+                <div class="box-long">
+                    <label class="box-long-title">
+                        Email
+                    </label>
+                    <input type="email" id="lemail" class="box-input-long" name="lastname" placeholder="Place the organization's email...">
+                </div>
+                <div class="box-long">
+                    <label class="box-long-title">
+                        Password
+                    </label>
+                    <input type="password" id="lpassword" class="box-input-long" name="lastname" placeholder="Place the organization's password...">
+                </div>
+                <div style="overflow: hidden; margin-top: 3.5%;">
+                    <div class="box-left hermano">
+                        <label class="box-title">
+                            Total revenue
+                        </label>
+                        <input type="text" id="ltr" class="box-input-simple" name="lastname" placeholder="What is the organization's total revenue?">
+                    </div>
+                    <div class="box-right hermano">
+                        <label class="box-title">
+                            Total assets
+                        </label>
+                        <input type="text" id="lta" class="box-input-simple" name="lastname" placeholder="What is the organization's total assets?">
+                    </div>
+                </div>
+                <div style="overflow: hidden; margin-top: 3.5%;">
+                    <div class="box-left hermano">
+                        <label class="box-title">
+                            Total expenses
+                        </label>
+                        <input type="text" id="lte" class="box-input-simple" name="lastname" placeholder="What is the organization's total expenses?">
+                    </div>
+                    <div class="box-right hermano">
+                        <label class="box-title">
+                            Total liabilities
+                        </label>
+                        <input type="text" id="ltl" class="box-input-simple" name="lastname" placeholder="What is the organization's total liabilities?">
+                    </div>
+                </div>
+                <div style="overflow: hidden; margin-top: 3.5%;">
+                    <div class="box-left hermano">
+                        <label class="box-title">
+                            Net income
+                        </label>
+                        <input type="text" id="lni" class="box-input-simple" name="lastname" placeholder="What is the organization's net income?">
+                    </div>
+                    <div class="box-right hermano">
+                        <label class="box-title">
+                            Net assets
+                        </label>
+                        <input type="text" id="lna" class="box-input-simple" name="lastname" placeholder="What is the organization's net assets?">
+                    </div>
+                </div>
+                <div style="overflow: hidden; margin-top: 3.5%;">
+                    <div class="box-left hermano">
+                        <label class="box-title">
+                            Program expenses
+                        </label>
+                        <input type="text" id="lpe" class="box-input-simple" name="lastname" placeholder="What is the percentage of the organization's program expenses?">
+                    </div>
+                    <div class="box-right hermano">
+                        <label class="box-title">
+                            Administrative expenses
+                        </label>
+                        <input type="text" id="lae" class="box-input-simple" name="lastname" placeholder="What is the percentage of the organization's administrative expenses?">
+                    </div>
+                </div>
+                <div style="overflow: hidden; margin-top: 3.5%;">
+                    <div class="box-left hermano">
+                        <label class="box-title">
+                            Fundraising expenses
+                        </label>
+                        <input type="text" id="lfe" class="box-input-simple" name="lastname" placeholder="What is the percentage of the organization's fundraising expenses?">
+                    </div>
+                    <div class="box-right hermano">
+                        <label class="box-title">
+                            Working Capital
+                        </label>
+                        <input type="text" id="lwc" class="box-input-simple" name="lastname" placeholder="How long (in years) would work the organization with the actual capital?">
+                    </div>
+                </div>
+                <div class="box-long">
+                    <label class="box-long-title">
+                        Mission
+                    </label>
+                    <textarea type="text" rows="5" id="lmission" class="box-input-description" name="lastname" placeholder="Write a short paragraph describing the mission of the organization..."></textarea>
+                </div>
+                <div class="btn-update" onclick="createOrganization()">
+                    Create Organization
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/gh/ethereum/web3.js/dist/web3.min.js"></script>
+    <script src="static/js/cargarData.js"></script>
+    <script src="static/js/contract.js"></script>
+    <script src="static/js/createOrganization.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Donaciones</title>
+    <link href="static/CSS/cargarData.css" rel="stylesheet" type="text/css">
+    <link href="static/CSS/signup.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://bootswatch.com/5/zephyr/bootstrap.min.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" media="all">
+
+</head>
+
+
+<body onload="cargarDatos()">
+
+<div id="barra-panel" class="bar">
+</div>
+<div class="content">
+    <div class="sign-up">
+        <p class="suscribe">Do you already have an account? <br>
+            Log in now!
+        </p>
+        <div class="btn-signup" onclick="signIn()">
+            <p class="letra-signup">Sign In</p>
+        </div>
+    </div>
+    <div class="vl"></div>
+    <div class="sign-in">
+        <div class="labels">
+            <div class="div-info">
+                <p class="email-title siblings">
+                    First Name
+                </p>
+                <input type="text" class="input siblings" id="name">
+                <p class="lastname-title siblings">
+                    Last Name
+                </p>
+                <input type="text" class="input siblings" id="lastname">
+            </div>
+            <div class="div-info">
+                <p class="email-title siblings">
+                    Email
+                </p>
+                <input type="email" class="email-input siblings" id="email">
+            </div>
+            <div class="div-info">
+                <p class="email-title siblings">
+                    Password
+                </p>
+                <input type="password" class="input siblings" id="password">
+                <p class="password-title siblings">
+                    Confirm password
+                </p>
+                <input type="password" class="input siblings" id="confirm-password">
+            </div>
+            <div class="div-info">
+                <p class="email-title siblings">
+                    Public Address
+                </p>
+                <input type="text" class="email-input siblings" id="publicaddress">
+            </div>
+        </div>
+        <div class="btn-signin" onclick="signUp()">
+            <p class="letra-signin">Sign Up</p>
+        </div>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/gh/ethereum/web3.js/dist/web3.min.js"></script>
+<script src="static/js/signup.js"></script>
+<script src="static/js/contract.js"></script>
+<script src="static/js/cargarData.js"></script>
+
+</body>
+</html>

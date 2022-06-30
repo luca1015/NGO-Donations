@@ -1,0 +1,138 @@
+.vl {
+    width: 0.05%;
+    float: left;
+    height: 400px;
+    alignment: center;
+    background: black;
+}
+.content{
+    margin-top: 5%;
+}
+.sign-in{
+    width: 49%;
+    height: 10px;
+    float: left;
+    padding-left: 3%;
+    padding-top: 5%;
+}
+.sign-up{
+    width: 50%;
+    float: left;
+    padding-left: 10%;
+    cursor: pointer;
+    padding-top: 10%;
+}
+.suscribe{
+    font-family: SFPro;
+    font-size: 47px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.36;
+    letter-spacing: normal;
+    text-align: center;
+    color: #3980c5;
+}
+.btn-signup{
+    width: 40%;
+    height: 76px;
+    padding: 19px 65px 19px 66px;
+    border-radius: 38px;
+    border: solid 1px #3980c5;
+    background-color: #fff;
+    margin:0px auto;
+    margin-top: 8%;
+}
+.letra-signup{
+    font-family: SFPro;
+    font-size: 32px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #3980c5;
+}
+.email-title{
+    font-family: SFPro;
+    font-size: 24px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #707070;
+    margin-top: 3%;
+}
+.email-input{
+    width: 384px;
+    height: 76px;
+    margin: 0 16px 23px 24px;
+    background-color: rgba(112, 112, 112, 0.06);
+    border: white;
+    font-family: SFPro;
+    font-size: 30px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #707070;
+    padding-left: 2%;
+}
+.inputs{
+    width: 80%;
+}
+.labels{
+    margin-top: 3%;
+    height: 76px;
+    width: 15%;
+}
+.siblings{
+    float: left;
+}
+.password{
+    margin-top: 55%;
+}
+.forgot-password{
+    font-family: SFPro;
+    font-size: 24px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #707070;
+    margin-left: 40%;
+}
+.btn-signin{
+    width: 40%;
+    height: 76px;
+    padding: 19px 78px 19px 74px;
+    border-radius: 38px;
+    background-color: #0382cb;
+    margin-left: 12%;
+    margin-top: 5%;
+    cursor: pointer;
+}
+.letra-signin{
+    font-family: SFPro;
+    font-size: 32px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: white;
+}
+.guest{
+    margin-top: 30%;
+    display: block;
+    text-align: center;
+    font-size: 22px;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Transactions</title>
+    <link href="static/CSS/cargarData.css" rel="stylesheet" type="text/css">
+    <link href="static/CSS/efectos.css" rel="stylesheet" type="text/css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link href="static/CSS/Transactions.css" rel="stylesheet" type="text/css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" media="all">
+</head>
+<body onload="cargarDatos();loadTransactions()">
+
+    <div id="barra-panel" class="bar">
+    </div>
+
+    <div class="content">
+        <div class="transaction-history-title">
+            TRANSACTION HISTORY
+        </div>
+        <hr>
+       <div id="transactions-options" class="transaction-filter">
+       </div>
+        <hr>
+        <div id="transactions">
+        </div>
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/gh/ethereum/web3.js/dist/web3.min.js"></script>
+    <script src="static/js/cargarData.js"></script>
+    <script src="static/js/contract.js"></script>
+    <script src="static/js/transactions.js"></script>
+    <script src="static/js/EthereumAccountsInfo.js"></script>
+
+</body>
+</html>

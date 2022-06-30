@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Donaciones</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600' rel='stylesheet' type='text/css'>
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="static/CSS/cargarData.css" rel="stylesheet" type="text/css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" media="all">
+</head>
+
+
+<body onload="cargarDatos()">
+
+    <div id="barra-panel" class="bar">
+    </div>
+
+    <div class="content">
+        <p class="question-donation">How much do you want to donate?</p>
+        <div class="initial-ammount" id="initial-ammount">
+
+        </div>
+        <div id="donation-bar" class="progress">
+
+        </div>
+        <div id="tfa">
+
+        </div>
+        <div class="default-ammounts">
+            <button class="btn-ammount" onclick="btnDonationAmmount('25')">
+                <p class="text-ammount">25 PTS</p>
+            </button>
+            <button class="btn-ammount" onclick="btnDonationAmmount('50')">
+                <p class="text-ammount">50 PTS</p>
+            </button>
+            <button class="btn-ammount" onclick="btnDonationAmmount('100')">
+                <p class="text-ammount">100 PTS</p>
+            </button>
+            <button class="btn-ammount" onclick="btnDonationAmmount('200')">
+                <p class="text-ammount">200 PTS</p>
+            </button>
+            <input type="number" id="ammount" class="manual-input" placeholder="Introduce a quantity (PTS)">
+        </div>
+        <button class="btn-donate" onclick="transferencia()">
+            <p class="text-donate">DONATE</p>
+        </button>
+        <button class="enableEthereumButton">
+            <p class="text-Ethereum">Enable Ethereum</p>
+        </button>
+        <div class="ethereum-account">
+            <h2>Account Selected: <span class="showAccount" id="account"></span></h2>
+            <h2>User balance: <span class="showBalance"></span></h2>
+        </div>
+    </div>
+    <link href="static/CSS/donation.css" rel="stylesheet" type="text/css">
+    <script src="https://cdn.jsdelivr.net/gh/ethereum/web3.js/dist/web3.min.js"></script>
+    <script src="static/js/donation.js"></script>
+    <script src="static/js/contract.js"></script>
+    <script src="static/js/cargarData.js"></script>
+</body>
+</html>

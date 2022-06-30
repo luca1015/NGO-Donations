@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Donaciones</title>
+    <link href="static/CSS/cargarData.css" rel="stylesheet" type="text/css">
+    <link href="static/CSS/login.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://bootswatch.com/5/zephyr/bootstrap.min.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" media="all">
+</head>
+
+
+<body onload="cargarDatos()">
+
+    <div id="barra-panel" class="bar">
+    </div>
+    <div class="content">
+        <div class="sign-up">
+            <p class="suscribe">Don't have an account yet? <br>
+            Suscribe now!
+            </p>
+            <div class="btn-signup" onclick="signup()">
+                <p class="letra-signup">Sign up</p>
+            </div>
+        </div>
+        <div class="vl"></div>
+        <div class="sign-in">
+            <div class="labels siblings">
+                <div>
+                    <p class="email-title">
+                        Email
+                    </p>
+                </div>
+                <div class="password">
+                    <p class="email-title">
+                    Password
+                    </p>
+                </div>
+            </div>
+            <div class="inputs siblings">
+                <input type="email" class="email-input" id="email">
+                <input type="password" class="email-input" id="password">
+            </div>
+            <a href="index.html"><p class="forgot-password"><b>Forgot Password?</b></p></a>
+            <div class="btn-signin" onclick="signIn()">
+                <p class="letra-signin">Sign in</p>
+            </div>
+        </div>
+    </div>
+    <div>
+        <a href="index.html" class="guest">Continue as a guest >></a>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/gh/ethereum/web3.js/dist/web3.min.js"></script>
+    <script src="static/js/login.js"></script>
+    <script src="static/js/contract.js"></script>
+    <script src="static/js/cargarData.js"></script>
+
+</body>
+</html>

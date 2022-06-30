@@ -1,0 +1,61 @@
+.content{
+    margin-bottom: 1.5%;
+    margin-right: 12.5%;
+    margin-left: 12.5%;
+    width: 75%;
+}
+.center{
+    justify-content: center;
+    text-align: center;
+}
+.hermano{
+    float: left;
+}
+.organization-title{
+    margin-top: 4%;
+    font-family: Didot;
+    font-size: 50px;
+    font-weight: bold;
+}
+.projects-title{
+    margin-top: 2%;
+    text-align: center;
+    font-size: 40px;
+    font-family: "Times New Roman", sans-serif;
+}
+.btn-create{
+    cursor: pointer;
+    overflow: hidden;
+    margin-left: 35%;
+    width: 30%;
+    height: 100px;
+    margin-top: 4%;
+    background-color: rgba(112, 112, 112, 0.06);
+    border-radius: 25px;
+}
+.imagen{
+    margin-top: 5.5%;
+    width: 15%;
+    margin-left: 15%;
+}
+.btn-text{
+    margin-top: 6%;
+    width: 65%;
+    margin-left: 5%;
+    font-size: 35px;
+    font-family: "Times New Roman", sans-serif;
+    font-weight: bold;
+}
+.barra-porcentaje2{
+    margin-top: 1%;
+    width: 75%;
+    height: 30px;
+}
+.btn-more2{
+    cursor: pointer;
+    width: 20%;
+    height: 48px;
+    border-radius: 24px;
+    background-color: #fff;
+    margin-left: 3%;
+}
